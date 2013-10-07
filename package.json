@@ -19,7 +19,7 @@
     "url": "git://github.com/troger/nuxeo-nodejs-shell.git"
   },
   "bin": {
-    "nuxeoshell" : "./lib/nuxeo/shell.js"
+    "nuxeoshell": "./lib/nuxeo/shell.js"
   },
   "licenses": [
     {
@@ -38,7 +38,8 @@
   ],
   "dependencies": {
     "restler": "~2.0.1",
-    "extend": "~1.2.1"
+    "extend": "~1.2.1",
+    "commander": "~2.0.0"
   },
   "devDependencies": {}
 }
