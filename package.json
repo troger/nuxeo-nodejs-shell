@@ -34,7 +34,8 @@
     "cli"
   ],
   "dependencies": {
-    "restler": "~2.0.1"
+    "restler": "~2.0.1",
+    "extend": "~1.2.1"
   },
   "devDependencies": {}
 }
