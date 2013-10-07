@@ -18,13 +18,16 @@
     "type": "git",
     "url": "git://github.com/troger/nuxeo-nodejs-shell.git"
   },
+  "bin": {
+    "nuxeoshell" : "./lib/nuxeo/shell.js"
+  },
   "licenses": [
     {
       "type": "MIT",
       "url": "http://github.com/gruntjs/grunt/blob/master/LICENSE-MIT"
     }
   ],
-  "main": "lib/nuxeo-shell.js",
+  "main": "lib/nuxeo/shell.js",
   "engines": {
     "node": ">= 0.10.0"
   },
