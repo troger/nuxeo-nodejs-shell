@@ -1,0 +1,40 @@
+{
+  "name": "nuxeo-shell",
+  "description": "Nuxeo Shell",
+  "version": "0.0.1",
+  "author": "Nuxeo (http://www.nuxeo.com/)",
+  "contributors": [
+    {
+      "name": "Arnaud Kervern",
+      "email": "akervern@nuxeo.com"
+    },
+    {
+      "name": "Thomas Roger",
+      "email": "troger@nuxeo.com"
+    }
+  ],
+  "homepage": "https://github.com/troger/nuxeo-nodejs-shell",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/troger/nuxeo-nodejs-shell.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/gruntjs/grunt/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/nuxeo-shell.js",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "keywords": [
+    "shell",
+    "nuxeo",
+    "cli"
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
