@@ -39,7 +39,8 @@
   "dependencies": {
     "restler": "~2.0.1",
     "extend": "~1.2.1",
-    "commander": "~2.0.0"
+    "commander": "~2.0.0",
+    "node-print": "0.0.4"
   },
   "devDependencies": {}
 }
