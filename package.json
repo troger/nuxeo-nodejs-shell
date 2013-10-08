@@ -18,16 +18,15 @@
     "type": "git",
     "url": "git://github.com/troger/nuxeo-nodejs-shell.git"
   },
-  "bin": {
-    "nuxeoshell": "./lib/nuxeo/shell.js"
-  },
   "licenses": [
     {
       "type": "MIT",
       "url": "http://github.com/gruntjs/grunt/blob/master/LICENSE-MIT"
     }
   ],
-  "main": "lib/nuxeo/shell.js",
+  "bin": {
+    "nuxeo-shell": "bin/nuxeo-shell"
+  },
   "engines": {
     "node": ">= 0.10.0"
   },
@@ -37,7 +36,7 @@
     "cli"
   ],
   "dependencies": {
-    "restler": "~2.0.1",
+    "restler": "git://github.com/danwrong/restler.git",
     "extend": "~1.2.1",
     "commander": "~2.0.0",
     "node-print": "0.0.4"
