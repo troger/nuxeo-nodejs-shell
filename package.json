@@ -28,7 +28,7 @@
     "nuxeo-shell": "bin/nuxeo-shell"
   },
   "engines": {
-    "node": ">= 0.11.7"
+    "node": ">= 0.10.0"
   },
   "keywords": [
     "shell",
