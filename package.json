@@ -28,7 +28,7 @@
     "nuxeo-shell": "bin/nuxeo-shell"
   },
   "engines": {
-    "node": ">= 0.10.0"
+    "node": ">= 0.11.7"
   },
   "keywords": [
     "shell",
@@ -40,7 +40,8 @@
     "extend": "~1.2.1",
     "commander": "~2.0.0",
     "node-print": "0.0.4",
-    "tmp": "0.0.21"
+    "tmp": "0.0.21",
+    "mkdirp": "~0.3.5"
   },
   "devDependencies": {}
 }
